@@ -1,0 +1,243 @@
+{
+    "ResourceRecordSets": [
+        {
+            "Name": "qid.global.",
+            "Type": "NS",
+            "TTL": 172800,
+            "ResourceRecords": [
+                {
+                    "Value": "ns-774.awsdns-32.net."
+                },
+                {
+                    "Value": "ns-1925.awsdns-48.co.uk."
+                },
+                {
+                    "Value": "ns-1507.awsdns-60.org."
+                },
+                {
+                    "Value": "ns-197.awsdns-24.com."
+                }
+            ]
+        },
+        {
+            "Name": "qid.global.",
+            "Type": "SOA",
+            "TTL": 900,
+            "ResourceRecords": [
+                {
+                    "Value": "ns-774.awsdns-32.net. awsdns-hostmaster.amazon.com. 1 7200 900 1209600 86400"
+                }
+            ]
+        },
+        {
+            "Name": "\\052.qid.global.",
+            "Type": "CNAME",
+            "TTL": 300,
+            "ResourceRecords": [
+                {
+                    "Value": "_bcd4ced2e5a8b78ddbedbbd2f30be20d.xlfgrmvvlj.acm-validations.aws."
+                }
+            ]
+        },
+        {
+            "Name": "7536lkcvbeexzs3xntueum2agpb3lt6c._domainkey.qid.global.",
+            "Type": "CNAME",
+            "TTL": 300,
+            "ResourceRecords": [
+                {
+                    "Value": "7536lkcvbeexzs3xntueum2agpb3lt6c.dkim.amazonses.com"
+                }
+            ]
+        },
+        {
+            "Name": "l7ssqeg7oui3e473bqzpfwsplgjcqym2._domainkey.qid.global.",
+            "Type": "CNAME",
+            "TTL": 300,
+            "ResourceRecords": [
+                {
+                    "Value": "l7ssqeg7oui3e473bqzpfwsplgjcqym2.dkim.amazonses.com"
+                }
+            ]
+        },
+        {
+            "Name": "q4xrcl63s2xlwq5wj2shtvxf7dclybyq._domainkey.qid.global.",
+            "Type": "CNAME",
+            "TTL": 300,
+            "ResourceRecords": [
+                {
+                    "Value": "q4xrcl63s2xlwq5wj2shtvxf7dclybyq.dkim.amazonses.com"
+                }
+            ]
+        },
+        {
+            "Name": "q7a5rkz6kfeapfytupvbu5cajfv56tfk._domainkey.qid.global.",
+            "Type": "CNAME",
+            "TTL": 300,
+            "ResourceRecords": [
+                {
+                    "Value": "q7a5rkz6kfeapfytupvbu5cajfv56tfk.dkim.amazonses.com"
+                }
+            ]
+        },
+        {
+            "Name": "wyerhazpwtyqryyvf46mbmyg2njg2gm5._domainkey.qid.global.",
+            "Type": "CNAME",
+            "TTL": 300,
+            "ResourceRecords": [
+                {
+                    "Value": "wyerhazpwtyqryyvf46mbmyg2njg2gm5.dkim.amazonses.com"
+                }
+            ]
+        },
+        {
+            "Name": "yan6ku2kepp3zfnyil4t2pxl3pnrrzhx._domainkey.qid.global.",
+            "Type": "CNAME",
+            "TTL": 300,
+            "ResourceRecords": [
+                {
+                    "Value": "yan6ku2kepp3zfnyil4t2pxl3pnrrzhx.dkim.amazonses.com"
+                }
+            ]
+        },
+        {
+            "Name": "_fbd023236ecc8ef2ec7bc1d5126d1562.qid.global.",
+            "Type": "CNAME",
+            "TTL": 60,
+            "ResourceRecords": [
+                {
+                    "Value": "_264cf0ea3a83c2ec6c7e0eba0149ee49.xlfgrmvvlj.acm-validations.aws."
+                }
+            ]
+        },
+        {
+            "Name": "alb-public-cf.qid.global.",
+            "Type": "CNAME",
+            "TTL": 300,
+            "ResourceRecords": [
+                {
+                    "Value": "k8s-ingressn-qiduswes-f4eb367b10-1009592380.us-west-2.elb.amazonaws.com"
+                }
+            ]
+        },
+        {
+            "Name": "dev.qid.global.",
+            "Type": "CNAME",
+            "TTL": 300,
+            "ResourceRecords": [
+                {
+                    "Value": "d1kml22fkpuuc7.cloudfront.net"
+                }
+            ]
+        },
+        {
+            "Name": "_c9362afdb75d19cde52fa7636967a8a4.dev.qid.global.",
+            "Type": "CNAME",
+            "TTL": 300,
+            "ResourceRecords": [
+                {
+                    "Value": "_cd4bfc9e91a2229824e0659d536f6aae.xlfgrmvvlj.acm-validations.aws."
+                }
+            ]
+        },
+        {
+            "Name": "\\052.us-east-1.lan.qid.global.",
+            "Type": "CNAME",
+            "TTL": 300,
+            "ResourceRecords": [
+                {
+                    "Value": "_8254de24d6c16113067075098f334e9f.xlfgrmvvlj.acm-validations.aws."
+                }
+            ]
+        },
+        {
+            "Name": "\\052.us-west-2.lan.qid.global.",
+            "Type": "CNAME",
+            "TTL": 300,
+            "ResourceRecords": [
+                {
+                    "Value": "internal-k8s-ingressn-qiduswes-b3aff290cf-721423553.us-west-2.elb.amazonaws.com"
+                }
+            ]
+        },
+        {
+            "Name": "_0f4aa8b042f35129a31c750867eb6762.us-west-2.lan.qid.global.",
+            "Type": "CNAME",
+            "TTL": 300,
+            "ResourceRecords": [
+                {
+                    "Value": "_bb9e5399c61bf5bb3fcee33560b61396.xlfgrmvvlj.acm-validations.aws."
+                }
+            ]
+        },
+        {
+            "Name": "prd.qid.global.",
+            "Type": "CNAME",
+            "TTL": 300,
+            "ResourceRecords": [
+                {
+                    "Value": "d2097ur7z2jp89.cloudfront.net"
+                }
+            ]
+        },
+        {
+            "Name": "_af9144e13def12e4ddf84382e6e55edb.prd.qid.global.",
+            "Type": "CNAME",
+            "TTL": 300,
+            "ResourceRecords": [
+                {
+                    "Value": "_91dd5662181862e9d46cc4ca74fe322d.xlfgrmvvlj.acm-validations.aws."
+                }
+            ]
+        },
+        {
+            "Name": "stg.qid.global.",
+            "Type": "CNAME",
+            "TTL": 300,
+            "ResourceRecords": [
+                {
+                    "Value": "d2xmil9hj8v75s.cloudfront.net"
+                }
+            ]
+        },
+        {
+            "Name": "\\052.stg.qid.global.",
+            "Type": "CNAME",
+            "TTL": 300,
+            "ResourceRecords": [
+                {
+                    "Value": "_6d752f2b50526014234ac226014a22a8.xlfgrmvvlj.acm-validations.aws."
+                }
+            ]
+        },
+        {
+            "Name": "test.qid.global.",
+            "Type": "A",
+            "TTL": 60,
+            "ResourceRecords": [
+                {
+                    "Value": "10.8.8.8"
+                }
+            ]
+        },
+        {
+            "Name": "www.qid.global.",
+            "Type": "CNAME",
+            "TTL": 60,
+            "ResourceRecords": [
+                {
+                    "Value": "qidglobal-lb-707053427.us-east-2.elb.amazonaws.com"
+                }
+            ]
+        },
+        {
+            "Name": "_837e79860cd82cc7a258d679a43931c1.www.qid.global.",
+            "Type": "CNAME",
+            "TTL": 60,
+            "ResourceRecords": [
+                {
+                    "Value": "_55fff56d0e0626aca8daa445c119a781.xlfgrmvvlj.acm-validations.aws."
+                }
+            ]
+        }
+    ]
+}
