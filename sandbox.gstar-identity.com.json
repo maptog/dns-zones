@@ -1,0 +1,143 @@
+{
+    "ResourceRecordSets": [
+        {
+            "Name": "sandbox.gstar-identity.com.",
+            "Type": "A",
+            "TTL": 1800,
+            "ResourceRecords": [
+                {
+                    "Value": "54.188.203.0"
+                }
+            ]
+        },
+        {
+            "Name": "sandbox.gstar-identity.com.",
+            "Type": "NS",
+            "TTL": 172800,
+            "ResourceRecords": [
+                {
+                    "Value": "ns-818.awsdns-38.net."
+                },
+                {
+                    "Value": "ns-1276.awsdns-31.org."
+                },
+                {
+                    "Value": "ns-471.awsdns-58.com."
+                },
+                {
+                    "Value": "ns-2012.awsdns-59.co.uk."
+                }
+            ]
+        },
+        {
+            "Name": "sandbox.gstar-identity.com.",
+            "Type": "SOA",
+            "TTL": 900,
+            "ResourceRecords": [
+                {
+                    "Value": "ns-818.awsdns-38.net. awsdns-hostmaster.amazon.com. 1 7200 900 1209600 86400"
+                }
+            ]
+        },
+        {
+            "Name": "_b39c3a9fa64982a3406db0086a3c6fd9.sandbox.gstar-identity.com.",
+            "Type": "CNAME",
+            "TTL": 300,
+            "ResourceRecords": [
+                {
+                    "Value": "_3daee2d98995296c964ece522578b358.xlfgrmvvlj.acm-validations.aws."
+                }
+            ]
+        },
+        {
+            "Name": "ex2eiho46d4sxiy2iy2wzlqa2oolwveu._domainkey.sandbox.gstar-identity.com.",
+            "Type": "CNAME",
+            "TTL": 300,
+            "ResourceRecords": [
+                {
+                    "Value": "ex2eiho46d4sxiy2iy2wzlqa2oolwveu.dkim.amazonses.com"
+                }
+            ]
+        },
+        {
+            "Name": "fh4mzkgaxgthlkmdr25roqgg6aexrgez._domainkey.sandbox.gstar-identity.com.",
+            "Type": "CNAME",
+            "TTL": 300,
+            "ResourceRecords": [
+                {
+                    "Value": "fh4mzkgaxgthlkmdr25roqgg6aexrgez.dkim.amazonses.com"
+                }
+            ]
+        },
+        {
+            "Name": "gekcbklana2rp7adrhhnquuqlr7q3oey._domainkey.sandbox.gstar-identity.com.",
+            "Type": "CNAME",
+            "TTL": 300,
+            "ResourceRecords": [
+                {
+                    "Value": "gekcbklana2rp7adrhhnquuqlr7q3oey.dkim.amazonses.com"
+                }
+            ]
+        },
+        {
+            "Name": "admintool.sandbox.gstar-identity.com.",
+            "Type": "A",
+            "TTL": 3600,
+            "ResourceRecords": [
+                {
+                    "Value": "54.188.203.0"
+                }
+            ]
+        },
+        {
+            "Name": "app.sandbox.gstar-identity.com.",
+            "Type": "A",
+            "TTL": 3600,
+            "ResourceRecords": [
+                {
+                    "Value": "54.188.203.0"
+                }
+            ]
+        },
+        {
+            "Name": "baasapi.sandbox.gstar-identity.com.",
+            "Type": "A",
+            "TTL": 3600,
+            "ResourceRecords": [
+                {
+                    "Value": "54.188.203.0"
+                }
+            ]
+        },
+        {
+            "Name": "dashboard.sandbox.gstar-identity.com.",
+            "Type": "A",
+            "TTL": 3600,
+            "ResourceRecords": [
+                {
+                    "Value": "54.188.203.0"
+                }
+            ]
+        },
+        {
+            "Name": "graphql.sandbox.gstar-identity.com.",
+            "Type": "A",
+            "TTL": 3600,
+            "ResourceRecords": [
+                {
+                    "Value": "54.188.203.0"
+                }
+            ]
+        },
+        {
+            "Name": "slapi.sandbox.gstar-identity.com.",
+            "Type": "A",
+            "TTL": 3600,
+            "ResourceRecords": [
+                {
+                    "Value": "54.188.203.0"
+                }
+            ]
+        }
+    ]
+}

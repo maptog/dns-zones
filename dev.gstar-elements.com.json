@@ -1,0 +1,183 @@
+{
+    "ResourceRecordSets": [
+        {
+            "Name": "dev.gstar-elements.com.",
+            "Type": "A",
+            "TTL": 1800,
+            "ResourceRecords": [
+                {
+                    "Value": "3.226.227.169"
+                }
+            ]
+        },
+        {
+            "Name": "dev.gstar-elements.com.",
+            "Type": "NS",
+            "TTL": 172800,
+            "ResourceRecords": [
+                {
+                    "Value": "ns-761.awsdns-31.net."
+                },
+                {
+                    "Value": "ns-376.awsdns-47.com."
+                },
+                {
+                    "Value": "ns-1290.awsdns-33.org."
+                },
+                {
+                    "Value": "ns-1874.awsdns-42.co.uk."
+                }
+            ]
+        },
+        {
+            "Name": "dev.gstar-elements.com.",
+            "Type": "SOA",
+            "TTL": 900,
+            "ResourceRecords": [
+                {
+                    "Value": "ns-761.awsdns-31.net. awsdns-hostmaster.amazon.com. 1 7200 900 1209600 86400"
+                }
+            ]
+        },
+        {
+            "Name": "_9025964c3d6d3e1efc30ef5063330b4a.dev.gstar-elements.com.",
+            "Type": "CNAME",
+            "TTL": 300,
+            "ResourceRecords": [
+                {
+                    "Value": "_e853c3ba6bcbd03794c997665bd2ae32.xlfgrmvvlj.acm-validations.aws."
+                }
+            ]
+        },
+        {
+            "Name": "_dmarc.dev.gstar-elements.com.",
+            "Type": "TXT",
+            "TTL": 300,
+            "ResourceRecords": [
+                {
+                    "Value": "\"v=DMARC1; p=none;\""
+                }
+            ]
+        },
+        {
+            "Name": "dxazpdk64kjanpgmprhwp4g4xbqfukfy._domainkey.dev.gstar-elements.com.",
+            "Type": "CNAME",
+            "TTL": 300,
+            "ResourceRecords": [
+                {
+                    "Value": "dxazpdk64kjanpgmprhwp4g4xbqfukfy.dkim.amazonses.com"
+                }
+            ]
+        },
+        {
+            "Name": "kmzb4l4xckyxx6kp2jbpwbz2gn6rdoz7._domainkey.dev.gstar-elements.com.",
+            "Type": "CNAME",
+            "TTL": 300,
+            "ResourceRecords": [
+                {
+                    "Value": "kmzb4l4xckyxx6kp2jbpwbz2gn6rdoz7.dkim.amazonses.com"
+                }
+            ]
+        },
+        {
+            "Name": "rjauzsu3tvxlftqakcm52oz7ixkymvu3._domainkey.dev.gstar-elements.com.",
+            "Type": "CNAME",
+            "TTL": 300,
+            "ResourceRecords": [
+                {
+                    "Value": "rjauzsu3tvxlftqakcm52oz7ixkymvu3.dkim.amazonses.com"
+                }
+            ]
+        },
+        {
+            "Name": "admintool.dev.gstar-elements.com.",
+            "Type": "A",
+            "TTL": 3600,
+            "ResourceRecords": [
+                {
+                    "Value": "3.226.227.169"
+                }
+            ]
+        },
+        {
+            "Name": "app.dev.gstar-elements.com.",
+            "Type": "A",
+            "TTL": 3600,
+            "ResourceRecords": [
+                {
+                    "Value": "3.226.227.169"
+                }
+            ]
+        },
+        {
+            "Name": "baasapi.dev.gstar-elements.com.",
+            "Type": "A",
+            "TTL": 3600,
+            "ResourceRecords": [
+                {
+                    "Value": "3.226.227.169"
+                }
+            ]
+        },
+        {
+            "Name": "dashboard.dev.gstar-elements.com.",
+            "Type": "A",
+            "TTL": 3600,
+            "ResourceRecords": [
+                {
+                    "Value": "3.226.227.169"
+                }
+            ]
+        },
+        {
+            "Name": "devapi.dev.gstar-elements.com.",
+            "Type": "A",
+            "TTL": 3600,
+            "ResourceRecords": [
+                {
+                    "Value": "3.226.227.169"
+                }
+            ]
+        },
+        {
+            "Name": "docs.dev.gstar-elements.com.",
+            "Type": "A",
+            "TTL": 3600,
+            "ResourceRecords": [
+                {
+                    "Value": "3.226.227.169"
+                }
+            ]
+        },
+        {
+            "Name": "explorer.dev.gstar-elements.com.",
+            "Type": "A",
+            "TTL": 3600,
+            "ResourceRecords": [
+                {
+                    "Value": "3.226.227.169"
+                }
+            ]
+        },
+        {
+            "Name": "graphql.dev.gstar-elements.com.",
+            "Type": "A",
+            "TTL": 3600,
+            "ResourceRecords": [
+                {
+                    "Value": "3.226.227.169"
+                }
+            ]
+        },
+        {
+            "Name": "slapi.dev.gstar-elements.com.",
+            "Type": "A",
+            "TTL": 3600,
+            "ResourceRecords": [
+                {
+                    "Value": "3.226.227.169"
+                }
+            ]
+        }
+    ]
+}

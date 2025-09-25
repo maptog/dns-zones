@@ -1,0 +1,141 @@
+{
+    "ResourceRecordSets": [
+        {
+            "Name": "gstar-identity.com.",
+            "Type": "NS",
+            "TTL": 172800,
+            "ResourceRecords": [
+                {
+                    "Value": "ns-1656.awsdns-15.co.uk."
+                },
+                {
+                    "Value": "ns-1300.awsdns-34.org."
+                },
+                {
+                    "Value": "ns-815.awsdns-37.net."
+                },
+                {
+                    "Value": "ns-96.awsdns-12.com."
+                }
+            ]
+        },
+        {
+            "Name": "gstar-identity.com.",
+            "Type": "SOA",
+            "TTL": 900,
+            "ResourceRecords": [
+                {
+                    "Value": "ns-1656.awsdns-15.co.uk. awsdns-hostmaster.amazon.com. 1 7200 900 1209600 86400"
+                }
+            ]
+        },
+        {
+            "Name": "_00cc275d11b158eee90214d5f0c4719a.gstar-identity.com.",
+            "Type": "CNAME",
+            "TTL": 300,
+            "ResourceRecords": [
+                {
+                    "Value": "_37f494ee2520c1403376bc22a261179c.zfyfvmchrl.acm-validations.aws."
+                }
+            ]
+        },
+        {
+            "Name": "_897a2142ed2f6f34efab9b20b10b20cf.gstar-identity.com.",
+            "Type": "CNAME",
+            "TTL": 300,
+            "ResourceRecords": [
+                {
+                    "Value": "_ea20237c6c10dce749b2be2a3c1807a1.zfyfvmchrl.acm-validations.aws."
+                }
+            ]
+        },
+        {
+            "Name": "_d71baad3adedd4279b500cf77b5dfb91.gstar-identity.com.",
+            "Type": "CNAME",
+            "TTL": 300,
+            "ResourceRecords": [
+                {
+                    "Value": "_5e91af9aae62c6ae60b11eb353d2baeb.zfyfvmchrl.acm-validations.aws."
+                }
+            ]
+        },
+        {
+            "Name": "api-sandbox.gstar-identity.com.",
+            "Type": "CNAME",
+            "TTL": 1800,
+            "ResourceRecords": [
+                {
+                    "Value": "sandbox-usw2-nlb-aedeca08a41e316e.elb.us-west-2.amazonaws.com"
+                }
+            ]
+        },
+        {
+            "Name": "api.gstar-identity.com.",
+            "Type": "CNAME",
+            "TTL": 1800,
+            "ResourceRecords": [
+                {
+                    "Value": "prod-nlb-a82423e99152a6d0.elb.us-west-2.amazonaws.com"
+                }
+            ]
+        },
+        {
+            "Name": "dashboard-sandbox.gstar-identity.com.",
+            "Type": "CNAME",
+            "TTL": 1800,
+            "ResourceRecords": [
+                {
+                    "Value": "sandbox-usw2-nlb-aedeca08a41e316e.elb.us-west-2.amazonaws.com"
+                }
+            ]
+        },
+        {
+            "Name": "qenta.gstar-identity.com.",
+            "Type": "CNAME",
+            "TTL": 1800,
+            "ResourceRecords": [
+                {
+                    "Value": "prod-nlb-a82423e99152a6d0.elb.us-west-2.amazonaws.com"
+                }
+            ]
+        },
+        {
+            "Name": "qid.gstar-identity.com.",
+            "Type": "NS",
+            "TTL": 3600,
+            "ResourceRecords": [
+                {
+                    "Value": "ns-960.awsdns-56.net."
+                },
+                {
+                    "Value": "ns-2040.awsdns-63.co.uk."
+                },
+                {
+                    "Value": "ns-1275.awsdns-31.org."
+                },
+                {
+                    "Value": "ns-358.awsdns-44.com."
+                }
+            ]
+        },
+        {
+            "Name": "sandbox.gstar-identity.com.",
+            "Type": "NS",
+            "TTL": 3600,
+            "ResourceRecords": [
+                {
+                    "Value": "ns-818.awsdns-38.net."
+                },
+                {
+                    "Value": "ns-1276.awsdns-31.org."
+                },
+                {
+                    "Value": "ns-471.awsdns-58.com."
+                },
+                {
+                    "Value": "ns-2012.awsdns-59.co.uk."
+                }
+            ]
+        }
+    ]
+}

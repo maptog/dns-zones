@@ -1,0 +1,210 @@
+{
+    "ResourceRecordSets": [
+        {
+            "Name": "gstar-elements.com.",
+            "Type": "NS",
+            "TTL": 172800,
+            "ResourceRecords": [
+                {
+                    "Value": "ns-121.awsdns-15.com."
+                },
+                {
+                    "Value": "ns-1614.awsdns-09.co.uk."
+                },
+                {
+                    "Value": "ns-1442.awsdns-52.org."
+                },
+                {
+                    "Value": "ns-606.awsdns-11.net."
+                }
+            ]
+        },
+        {
+            "Name": "gstar-elements.com.",
+            "Type": "SOA",
+            "TTL": 900,
+            "ResourceRecords": [
+                {
+                    "Value": "ns-121.awsdns-15.com. awsdns-hostmaster.amazon.com. 1 7200 900 1209600 86400"
+                }
+            ]
+        },
+        {
+            "Name": "_01d73bfeaeb1e6d6dd1a8cc2520c7835.gstar-elements.com.",
+            "Type": "CNAME",
+            "TTL": 300,
+            "ResourceRecords": [
+                {
+                    "Value": "_9d6508a463bf8105f807d6ed7f676229.zfyfvmchrl.acm-validations.aws."
+                }
+            ]
+        },
+        {
+            "Name": "_3834e5742922a258fc7f0d340e9ffcc4.gstar-elements.com.",
+            "Type": "CNAME",
+            "TTL": 300,
+            "ResourceRecords": [
+                {
+                    "Value": "_0480e6a28a4f6684999c7a368cff85de.zfyfvmchrl.acm-validations.aws."
+                }
+            ]
+        },
+        {
+            "Name": "_8b789957f455e4aa784e9babba889c78.gstar-elements.com.",
+            "Type": "CNAME",
+            "TTL": 300,
+            "ResourceRecords": [
+                {
+                    "Value": "_519758f13ebf6ebd1388dbe157896893.zfyfvmchrl.acm-validations.aws."
+                }
+            ]
+        },
+        {
+            "Name": "api-dev.gstar-elements.com.",
+            "Type": "CNAME",
+            "TTL": 1800,
+            "ResourceRecords": [
+                {
+                    "Value": "dev-use1-nlb-12e3dca1738319ee.elb.us-east-1.amazonaws.com"
+                }
+            ]
+        },
+        {
+            "Name": "api-pt.gstar-elements.com.",
+            "Type": "CNAME",
+            "TTL": 1800,
+            "ResourceRecords": [
+                {
+                    "Value": "dev-use1-nlb-12e3dca1738319ee.elb.us-east-1.amazonaws.com"
+                }
+            ]
+        },
+        {
+            "Name": "api-qa.gstar-elements.com.",
+            "Type": "CNAME",
+            "TTL": 1800,
+            "ResourceRecords": [
+                {
+                    "Value": "dev-use1-nlb-12e3dca1738319ee.elb.us-east-1.amazonaws.com"
+                }
+            ]
+        },
+        {
+            "Name": "api-stage.gstar-elements.com.",
+            "Type": "CNAME",
+            "TTL": 1800,
+            "ResourceRecords": [
+                {
+                    "Value": "dev-use1-nlb-12e3dca1738319ee.elb.us-east-1.amazonaws.com"
+                }
+            ]
+        },
+        {
+            "Name": "dev.api.gstar-elements.com.",
+            "Type": "CNAME",
+            "TTL": 300,
+            "ResourceRecords": [
+                {
+                    "Value": "dev-use1-nlb-12e3dca1738319ee.elb.us-east-1.amazonaws.com"
+                }
+            ]
+        },
+        {
+            "Name": "dashboard-dev.gstar-elements.com.",
+            "Type": "CNAME",
+            "TTL": 1800,
+            "ResourceRecords": [
+                {
+                    "Value": "dev-use1-nlb-12e3dca1738319ee.elb.us-east-1.amazonaws.com"
+                }
+            ]
+        },
+        {
+            "Name": "dashboard-qa.gstar-elements.com.",
+            "Type": "CNAME",
+            "TTL": 1800,
+            "ResourceRecords": [
+                {
+                    "Value": "dev-use1-nlb-12e3dca1738319ee.elb.us-east-1.amazonaws.com"
+                }
+            ]
+        },
+        {
+            "Name": "dashboard-stage.gstar-elements.com.",
+            "Type": "CNAME",
+            "TTL": 1800,
+            "ResourceRecords": [
+                {
+                    "Value": "dev-use1-nlb-12e3dca1738319ee.elb.us-east-1.amazonaws.com"
+                }
+            ]
+        },
+        {
+            "Name": "dev.gstar-elements.com.",
+            "Type": "NS",
+            "TTL": 3600,
+            "ResourceRecords": [
+                {
+                    "Value": "ns-761.awsdns-31.net."
+                },
+                {
+                    "Value": "ns-376.awsdns-47.com."
+                },
+                {
+                    "Value": "ns-1290.awsdns-33.org."
+                },
+                {
+                    "Value": "ns-1874.awsdns-42.co.uk."
+                }
+            ]
+        },
+        {
+            "Name": "pt.gstar-elements.com.",
+            "Type": "CNAME",
+            "TTL": 1800,
+            "ResourceRecords": [
+                {
+                    "Value": "dev-use1-nlb-12e3dca1738319ee.elb.us-east-1.amazonaws.com"
+                }
+            ]
+        },
+        {
+            "Name": "qa.gstar-elements.com.",
+            "Type": "NS",
+            "TTL": 3600,
+            "ResourceRecords": [
+                {
+                    "Value": "ns-1710.awsdns-21.co.uk."
+                },
+                {
+                    "Value": "ns-1421.awsdns-49.org."
+                },
+                {
+                    "Value": "ns-370.awsdns-46.com."
+                },
+                {
+                    "Value": "ns-982.awsdns-58.net."
+                }
+            ]
+        },
+        {
+            "Name": "stage.gstar-elements.com.",
+            "Type": "NS",
+            "TTL": 3600,
+            "ResourceRecords": [
+                {
+                    "Value": "ns-1750.awsdns-26.co.uk."
+                },
+                {
+                    "Value": "ns-1463.awsdns-54.org."
+                },
+                {
+                    "Value": "ns-940.awsdns-53.net."
+                },
+                {
+                    "Value": "ns-410.awsdns-51.com."
+                }
+            ]
+        }
+    ]
+}

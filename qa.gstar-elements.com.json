@@ -1,0 +1,143 @@
+{
+    "ResourceRecordSets": [
+        {
+            "Name": "qa.gstar-elements.com.",
+            "Type": "A",
+            "TTL": 1800,
+            "ResourceRecords": [
+                {
+                    "Value": "3.226.227.169"
+                }
+            ]
+        },
+        {
+            "Name": "qa.gstar-elements.com.",
+            "Type": "NS",
+            "TTL": 172800,
+            "ResourceRecords": [
+                {
+                    "Value": "ns-1710.awsdns-21.co.uk."
+                },
+                {
+                    "Value": "ns-1421.awsdns-49.org."
+                },
+                {
+                    "Value": "ns-370.awsdns-46.com."
+                },
+                {
+                    "Value": "ns-982.awsdns-58.net."
+                }
+            ]
+        },
+        {
+            "Name": "qa.gstar-elements.com.",
+            "Type": "SOA",
+            "TTL": 900,
+            "ResourceRecords": [
+                {
+                    "Value": "ns-1710.awsdns-21.co.uk. awsdns-hostmaster.amazon.com. 1 7200 900 1209600 86400"
+                }
+            ]
+        },
+        {
+            "Name": "_ba1b74924532f2d617fcfb45063807b2.qa.gstar-elements.com.",
+            "Type": "CNAME",
+            "TTL": 300,
+            "ResourceRecords": [
+                {
+                    "Value": "_6b9ff0eec66a72e779fb93a1496cc20d.xlfgrmvvlj.acm-validations.aws."
+                }
+            ]
+        },
+        {
+            "Name": "_dmarc.qa.gstar-elements.com.",
+            "Type": "TXT",
+            "TTL": 300,
+            "ResourceRecords": [
+                {
+                    "Value": "\"v=DMARC1; p=none;\""
+                }
+            ]
+        },
+        {
+            "Name": "46cp5pqtkkmzdyydyzm72zlrb66ow5pf._domainkey.qa.gstar-elements.com.",
+            "Type": "CNAME",
+            "TTL": 300,
+            "ResourceRecords": [
+                {
+                    "Value": "46cp5pqtkkmzdyydyzm72zlrb66ow5pf.dkim.amazonses.com"
+                }
+            ]
+        },
+        {
+            "Name": "6nppavsyy56oxfyhn7tto53tpz447i3g._domainkey.qa.gstar-elements.com.",
+            "Type": "CNAME",
+            "TTL": 300,
+            "ResourceRecords": [
+                {
+                    "Value": "6nppavsyy56oxfyhn7tto53tpz447i3g.dkim.amazonses.com"
+                }
+            ]
+        },
+        {
+            "Name": "ospfpze4epfhy3g2tvoj3ak7a5irw3qj._domainkey.qa.gstar-elements.com.",
+            "Type": "CNAME",
+            "TTL": 300,
+            "ResourceRecords": [
+                {
+                    "Value": "ospfpze4epfhy3g2tvoj3ak7a5irw3qj.dkim.amazonses.com"
+                }
+            ]
+        },
+        {
+            "Name": "admintool.qa.gstar-elements.com.",
+            "Type": "A",
+            "TTL": 3600,
+            "ResourceRecords": [
+                {
+                    "Value": "3.226.227.169"
+                }
+            ]
+        },
+        {
+            "Name": "app.qa.gstar-elements.com.",
+            "Type": "A",
+            "TTL": 3600,
+            "ResourceRecords": [
+                {
+                    "Value": "3.226.227.169"
+                }
+            ]
+        },
+        {
+            "Name": "dashboard.qa.gstar-elements.com.",
+            "Type": "A",
+            "TTL": 3600,
+            "ResourceRecords": [
+                {
+                    "Value": "3.226.227.169"
+                }
+            ]
+        },
+        {
+            "Name": "graphql.qa.gstar-elements.com.",
+            "Type": "A",
+            "TTL": 3600,
+            "ResourceRecords": [
+                {
+                    "Value": "3.226.227.169"
+                }
+            ]
+        },
+        {
+            "Name": "slapi.qa.gstar-elements.com.",
+            "Type": "A",
+            "TTL": 3600,
+            "ResourceRecords": [
+                {
+                    "Value": "3.226.227.169"
+                }
+            ]
+        }
+    ]
+}

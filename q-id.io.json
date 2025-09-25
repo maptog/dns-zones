@@ -1,0 +1,33 @@
+{
+    "ResourceRecordSets": [
+        {
+            "Name": "q-id.io.",
+            "Type": "NS",
+            "TTL": 172800,
+            "ResourceRecords": [
+                {
+                    "Value": "ns-1877.awsdns-42.co.uk."
+                },
+                {
+                    "Value": "ns-531.awsdns-02.net."
+                },
+                {
+                    "Value": "ns-105.awsdns-13.com."
+                },
+                {
+                    "Value": "ns-1286.awsdns-32.org."
+                }
+            ]
+        },
+        {
+            "Name": "q-id.io.",
+            "Type": "SOA",
+            "TTL": 900,
+            "ResourceRecords": [
+                {
+                    "Value": "ns-1877.awsdns-42.co.uk. awsdns-hostmaster.amazon.com. 1 7200 900 1209600 86400"
+                }
+            ]
+        }
+    ]
+}

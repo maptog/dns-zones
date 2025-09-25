@@ -1,0 +1,113 @@
+{
+    "ResourceRecordSets": [
+        {
+            "Name": "qid.gstar-identity.com.",
+            "Type": "NS",
+            "TTL": 172800,
+            "ResourceRecords": [
+                {
+                    "Value": "ns-960.awsdns-56.net."
+                },
+                {
+                    "Value": "ns-2040.awsdns-63.co.uk."
+                },
+                {
+                    "Value": "ns-1275.awsdns-31.org."
+                },
+                {
+                    "Value": "ns-358.awsdns-44.com."
+                }
+            ]
+        },
+        {
+            "Name": "qid.gstar-identity.com.",
+            "Type": "SOA",
+            "TTL": 900,
+            "ResourceRecords": [
+                {
+                    "Value": "ns-960.awsdns-56.net. awsdns-hostmaster.amazon.com. 1 7200 900 1209600 86400"
+                }
+            ]
+        },
+        {
+            "Name": "_2540cd757badc5b2efff37c8daf0d81a.qid.gstar-identity.com.",
+            "Type": "CNAME",
+            "TTL": 300,
+            "ResourceRecords": [
+                {
+                    "Value": "_3cd42d8c5044aaf37d4cb64b1a131e2c.xlfgrmvvlj.acm-validations.aws."
+                }
+            ]
+        },
+        {
+            "Name": "gxzffelb3kxxujskhlqedpbep2ygvk6e._domainkey.qid.gstar-identity.com.",
+            "Type": "CNAME",
+            "TTL": 300,
+            "ResourceRecords": [
+                {
+                    "Value": "gxzffelb3kxxujskhlqedpbep2ygvk6e.dkim.amazonses.com"
+                }
+            ]
+        },
+        {
+            "Name": "sv4r26bvzf6d7fxo5wd5jkm4ve5cbgdo._domainkey.qid.gstar-identity.com.",
+            "Type": "CNAME",
+            "TTL": 300,
+            "ResourceRecords": [
+                {
+                    "Value": "sv4r26bvzf6d7fxo5wd5jkm4ve5cbgdo.dkim.amazonses.com"
+                }
+            ]
+        },
+        {
+            "Name": "tveeubdrylfeys6pfqda2mg3od5bk6xl._domainkey.qid.gstar-identity.com.",
+            "Type": "CNAME",
+            "TTL": 300,
+            "ResourceRecords": [
+                {
+                    "Value": "tveeubdrylfeys6pfqda2mg3od5bk6xl.dkim.amazonses.com"
+                }
+            ]
+        },
+        {
+            "Name": "admintool.qid.gstar-identity.com.",
+            "Type": "A",
+            "TTL": 3600,
+            "ResourceRecords": [
+                {
+                    "Value": "52.40.97.8"
+                }
+            ]
+        },
+        {
+            "Name": "app.qid.gstar-identity.com.",
+            "Type": "A",
+            "TTL": 3600,
+            "ResourceRecords": [
+                {
+                    "Value": "52.40.97.8"
+                }
+            ]
+        },
+        {
+            "Name": "dashboard.qid.gstar-identity.com.",
+            "Type": "A",
+            "TTL": 3600,
+            "ResourceRecords": [
+                {
+                    "Value": "52.40.97.8"
+                }
+            ]
+        },
+        {
+            "Name": "docs.qid.gstar-identity.com.",
+            "Type": "A",
+            "TTL": 3600,
+            "ResourceRecords": [
+                {
+                    "Value": "52.40.97.8"
+                }
+            ]
+        }
+    ]
+}

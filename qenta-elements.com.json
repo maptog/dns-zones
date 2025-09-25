@@ -1,0 +1,33 @@
+{
+    "ResourceRecordSets": [
+        {
+            "Name": "qenta-elements.com.",
+            "Type": "NS",
+            "TTL": 172800,
+            "ResourceRecords": [
+                {
+                    "Value": "ns-592.awsdns-10.net."
+                },
+                {
+                    "Value": "ns-1198.awsdns-21.org."
+                },
+                {
+                    "Value": "ns-1872.awsdns-42.co.uk."
+                },
+                {
+                    "Value": "ns-127.awsdns-15.com."
+                }
+            ]
+        },
+        {
+            "Name": "qenta-elements.com.",
+            "Type": "SOA",
+            "TTL": 900,
+            "ResourceRecords": [
+                {
+                    "Value": "ns-592.awsdns-10.net. awsdns-hostmaster.amazon.com. 1 7200 900 1209600 86400"
+                }
+            ]
+        }
+    ]
+}
